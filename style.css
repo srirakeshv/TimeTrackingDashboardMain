@@ -9,15 +9,19 @@ body{
     font-family: Rubik;
     background-color: hsl(226, 43%, 10%);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 p{
     margin: 0;
 }
 /* wrapper */
 .wrapper{
-    margin: auto;
+/*     margin: auto; */
     padding: 10px;
     max-width: 900px;
+    width: 100%;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
